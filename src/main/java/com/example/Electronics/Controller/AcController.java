@@ -28,7 +28,7 @@ public class AcController {
 		return ac.postac(a);
 	}
 	
-	@GetMapping(value="getAc")
+	@GetMapping(value="getAll")
 	public List<Ac> getac(){
 		return ac.getac();
 	}
